@@ -6,6 +6,7 @@ import Pricing from "./components/Pricing";
 import Landing from "./components/Landing";
 
 const App = () => {
+  console.log("hi");
   return (
     <StylesProvider>
       <BrowserRouter>
