@@ -12,6 +12,7 @@ const generateClassName = createGenerateClassName({
   productionPrefix: "au",
 });
 const App = ({ history, onSignIn }) => {
+  console.log("");
   return (
     <StylesProvider generateClassName={generateClassName}>
       <Router history={history}>
