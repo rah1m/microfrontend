@@ -12,8 +12,6 @@ const generateClassName = createGenerateClassName({
   productionPrefix: "ma",
 });
 const App = ({ history }) => {
-  console.log("");
-
   return (
     <StylesProvider generateClassName={generateClassName}>
       <Router history={history}>

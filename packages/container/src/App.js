@@ -17,7 +17,6 @@ const generateClassName = createGenerateClassName({
 
 const App = () => {
   const [isSignIn, setIsSignIn] = useState(false);
-  console.log("");
 
   return (
     <BrowserRouter>
