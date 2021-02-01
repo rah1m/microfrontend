@@ -21,6 +21,7 @@ const history = createBrowserHistory();
 
 const App = () => {
   const [isSignIn, setIsSignIn] = useState(false);
+  console.log("Salam");
 
   useEffect(() => {
     if (isSignIn) {
